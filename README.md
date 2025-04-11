@@ -8,7 +8,7 @@ Este es mi portfolio personal como diseñador UI/UX y desarrollador frontend. Lo
 - **HTML5 / CSS3**
 - **JavaScript (ES6+)**
 - **React Router DOM**
-- **TailwindCSS** 
+- **TailwindCSS** git
 - **Figma** (para el diseño UI)
 
 ## 🌐 Secciones principales
