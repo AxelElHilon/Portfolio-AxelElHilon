@@ -37,13 +37,13 @@ export default function Home({ darkMode }) {
             <Link to="/projects/project2">
               {/* Imagen del proyecto */}
               <img
-                src="/img/project2.png"
-                alt="Proyecto 2"
+                src="/img/xwave.png"
+                alt="Imagen Landing Page - Producto XWave"
                 className="w-full h-full object-cover aspect-video transition-transform duration-300 ease-in-out"
               />
               {/* Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h3 className="text-white text-xl font-bold mb-2">Project 2</h3>
+                <h3 className="text-white text-xl font-bold mb-2">Landing Page - Producto XWave</h3>
                 
               </div>
             </Link>

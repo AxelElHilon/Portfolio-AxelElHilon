@@ -26,11 +26,11 @@ function App() {
         <Route path="/about" element={<About darkMode={darkMode} />} />
         <Route path="/contact" element={<Contact darkMode={darkMode} />} />
         <Route path="/projects/project1" element={<Project1 />} />
-        <Route path="/projects/proyecto2" element={<Project2 />} />
-        <Route path="/projects/proyecto3" element={<Project3 />} />
-        <Route path="/projects/proyecto4" element={<Project4 />} />
-        <Route path="/projects/proyecto5" element={<Project5 />} />
-        <Route path="/projects/proyecto6" element={<Project6 />} />
+        <Route path="/projects/project2" element={<Project2 />} />
+        <Route path="/projects/project3" element={<Project3 />} />
+        <Route path="/projects/project4" element={<Project4 />} />
+        <Route path="/projects/project5" element={<Project5 />} />
+        <Route path="/projects/project6" element={<Project6 />} />
       </Routes>
 
       <Footer darkMode={darkMode} />

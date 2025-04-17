@@ -18,7 +18,7 @@ export default function About({ darkMode }) {
           />
 
           {/* Texto */}
-          <div className="flex flex-col items-center gap-2 transform transition-transform hover:scale-105 hover:rotate-1">
+          <div className="flex flex-col items-center gap-2 ">
             <h1 className="text-3xl md:text-4xl font-bold mb-2 tracking-tight">
               Axel Adrian El Hilon
             </h1>
