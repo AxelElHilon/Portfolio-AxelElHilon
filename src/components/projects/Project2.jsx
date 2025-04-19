@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function Project2() {
+export default function Project2({ darkMode }) {
   return (
-    <main className="pt-24 px-6 min-h-screen bg-white text-[#1a1a1a]">
+    <main
+      className={`pt-24 px-6 min-h-screen ${
+        darkMode ? "bg-[#1a1a1a] text-white" : "bg-white text-[#1a1a1a]"
+      }`}
+    >
       <h1 className="text-4xl font-bold mb-6">🎧 XWave - Landing Page Mobile First (En desarrollo)</h1>
 
       <section className="mb-10">
