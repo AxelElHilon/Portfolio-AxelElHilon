@@ -1,4 +1,7 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function About({ darkMode }) {
   return (
@@ -7,18 +10,14 @@ export default function About({ darkMode }) {
       darkMode ? "bg-[#1a1a1a] text-white" : "bg-white text-[#1a1a1a]"
     }`}
   >
-      <section className="max-w-5xl mx-auto">
+      <section className="max-w-5xl mx-auto" data-aos="fade-up">
         {/* Contenedor principal: Imagen + Texto */}
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12" data-aos="zoom-in" data-aos-delay="0">
           {/* Imagen */}
-          <img
-            src="/img/axel.jpg"
-            alt="Axel Adrian El Hilon"
-            className="w-40 h-40 rounded-full object-cover shadow-lg"
-          />
-
+          <img src="/img/axel.jpg" alt="Axel Adrian El Hilon" className="w-40 h-40 rounded-full object-cover shadow-lg" />
           {/* Texto */}
-          <div className="flex flex-col items-center gap-2 ">
+          <div className="flex flex-col items-center gap-2 " data-aos="zoom-in" data-aos-delay="100">
+            {/* Nombre y título */}
             <h1 className="text-3xl md:text-4xl font-bold mb-2 tracking-tight">
               Axel Adrian El Hilon
             </h1>
@@ -60,9 +59,10 @@ export default function About({ darkMode }) {
         <div className="w-16 h-[2px] bg-[#65c1e4] mx-auto my-10"></div>
 
         {/* Certificaciones */}
-        <div className="text-center">
+        <div className="text-center" data-aos="zoom-in" data-aos-delay="200">
+          {/* Título de la sección */}
           <h2 className="text-2xl font-semibold mb-6">Certificaciones</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 place-items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 place-items-center" data-aos="zoom-in" data-aos-delay="200">
             {/* Carrera Front End */}
             <a
               href="https://pub.coderhouse.com/legacy-certificates/67f4b9102431e2a8168d8ae5?lang=es"
