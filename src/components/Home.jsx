@@ -34,8 +34,8 @@ export default function Home({ darkMode }) {
             <Link to="/projects/project2">
               {/* Imagen del proyecto */}
               <img
-                src="/img/.png"
-                alt=""
+                src="/img/hype-gear-ecommerce.png"
+                alt="Imagen Hype Gear - Ecommerce"
                 className="w-full h-full object-cover aspect-video transition-transform duration-300 ease-in-out"
               />
               {/* Overlay */}
