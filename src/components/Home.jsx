@@ -34,7 +34,7 @@ export default function Home({ darkMode }) {
             <Link to="/projects/project2">
               {/* Imagen del proyecto */}
               <img
-                src="/img/xwave.png"
+                src="/img/hype-gear-ecommerce.png"
                 alt="Imagen Landing Page - Producto XWave"
                 className="w-full h-full object-cover aspect-video transition-transform duration-300 ease-in-out"
               />
