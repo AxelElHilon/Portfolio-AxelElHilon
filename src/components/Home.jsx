@@ -23,8 +23,7 @@ export default function Home({ darkMode }) {
               {/* Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-white text-xl font-bold mb-2">Bralo Tattoo</h3>
-               
-              </div>
+               </div>
             </Link>
           </div>
 
