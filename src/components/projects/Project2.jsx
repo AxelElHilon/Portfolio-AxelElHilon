@@ -1,4 +1,5 @@
 import React from "react";
+import mockupImage from "../../assets/hypegear-mockup.png";
 
 export default function Project2({ darkMode }) {
   return (
@@ -44,6 +45,37 @@ export default function Project2({ darkMode }) {
           se integraron imágenes optimizadas, y se adaptó el menú hamburguesa para mobile. También se resolvieron errores
           en el build y se organizó el proyecto para un deploy limpio en Vercel.
         </p>
+      </section>
+
+ {/* SECCIÓN MOCKUP*/}
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-4">📱 Vista Mobile (Mockup)</h2>
+        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
+          {/* Texto */}
+          <div className="lg:w-1/2">
+            <p className="mb-4">
+              A continuación se muestra cómo luce la página en su versión móvil.
+              Se utilizó un mockup con fondo transparente para resaltar la interfaz en
+              diferentes contextos visuales, reforzando la estética profesional del diseño.
+            </p>
+            <p>
+              Este tipo de presentación ayuda a visualizar la experiencia real del usuario final
+              en dispositivos móviles, donde el enfoque mobile-first cobra protagonismo.
+            </p>
+          </div>
+
+          {/* Imagen animada */}
+          <div
+            className="lg:w-1/2 transition-all duration-700 ease-in-out"
+            data-aos="fade-left"
+          >
+            <img
+              src={mockupImage}
+              alt="Vista mobile de la landing"
+              className="w-full max-w-md md:max-w-lg mx-auto rounded-xl drop-shadow-lg"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="mb-10">
