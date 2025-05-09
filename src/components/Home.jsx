@@ -176,7 +176,7 @@ export default function Home({ darkMode }) {
         <div className="absolute h-full w-1/2 bg-[#65c1e4] rounded-full animate-loading-line"></div>
       </div>
 
-      <section className="w-full py-20 px-6 mt-32 mb-24" data-aos="fade-up">
+      <section className="w-full py-10 px-6 mt-15 mb-10" data-aos="fade-up">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-[#65c1e4]">🚀 ¿Trabajamos juntos?</h2>
           <p className={`text-lg mb-8 ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
