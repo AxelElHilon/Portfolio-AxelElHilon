@@ -13,6 +13,7 @@ import Project3 from "./components/projects/Project3";
 import Project4 from "./components/projects/Project4";
 import Project5 from "./components/projects/Project5";
 import Project6 from "./components/projects/Project6";
+import ScrollToTop from "./components/ScrollToTop";
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark bg-[#1a1a1a] text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
+      <ScrollToTop />
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
       <Routes>
